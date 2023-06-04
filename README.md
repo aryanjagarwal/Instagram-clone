@@ -1,6 +1,6 @@
 # Instagram-clone
 Instagram clone in swiftUI
-Features: 
+with the following Features: 
 Login / Sign Up 
 Image Uploading / Downloading
 Post Feed 
