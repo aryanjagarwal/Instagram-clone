@@ -12,6 +12,8 @@
 		7A59436F2A2DB00C0092D8D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A59436E2A2DB00C0092D8D5 /* Assets.xcassets */; };
 		7A5943722A2DB00C0092D8D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5943712A2DB00C0092D8D5 /* Preview Assets.xcassets */; };
 		7A8DB1A12A2F554B00724DB6 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8DB1A02A2F554B00724DB6 /* MainTabView.swift */; };
+		7AA2F5262A32E65C002B66CB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA2F5252A32E65C002B66CB /* ProfileView.swift */; };
+		7AA2F5292A33598C002B66CB /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA2F5282A33598C002B66CB /* UserStatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		7A59436E2A2DB00C0092D8D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A5943712A2DB00C0092D8D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A8DB1A02A2F554B00724DB6 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		7AA2F5252A32E65C002B66CB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7AA2F5282A33598C002B66CB /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				7A5943842A2DB3970092D8D5 /* Authentication */,
+				7AA2F5272A33595B002B66CB /* Components */,
 				7A5943852A2DB4210092D8D5 /* Feed */,
 				7A5943862A2DB4340092D8D5 /* Profile */,
 				7A5943872A2DB4450092D8D5 /* Root */,
@@ -133,6 +138,7 @@
 		7A5943862A2DB4340092D8D5 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				7AA2F5252A32E65C002B66CB /* ProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -164,6 +170,14 @@
 				7A8DB1A02A2F554B00724DB6 /* MainTabView.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		7AA2F5272A33595B002B66CB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7AA2F5282A33598C002B66CB /* UserStatView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +250,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA2F5262A32E65C002B66CB /* ProfileView.swift in Sources */,
 				7A59436D2A2DB00B0092D8D5 /* ContentView.swift in Sources */,
 				7A59436B2A2DB00B0092D8D5 /* InstagramCloneApp.swift in Sources */,
+				7AA2F5292A33598C002B66CB /* UserStatView.swift in Sources */,
 				7A8DB1A12A2F554B00724DB6 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
